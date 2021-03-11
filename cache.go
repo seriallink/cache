@@ -16,7 +16,7 @@
 // Usage:
 //
 // import(
-//   "github.com/bcjti/cache"
+//   "github.com/seriallink/cache"
 // )
 //
 // bm, err := cache.NewCache("memory", `{"interval":60}`)

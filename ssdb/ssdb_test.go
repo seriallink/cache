@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bcjti/cache"
+	"github.com/seriallink/cache"
 )
 
 func TestSsdbcacheCache(t *testing.T) {

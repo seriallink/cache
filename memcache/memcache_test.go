@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bcjti/cache"
 	_ "github.com/bradfitz/gomemcache/memcache"
+	"github.com/seriallink/cache"
 )
 
 func TestMemcacheCache(t *testing.T) {

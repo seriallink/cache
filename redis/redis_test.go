@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bcjti/cache"
 	"github.com/gomodule/redigo/redis"
+	"github.com/seriallink/cache"
 )
 
 func TestRedisCache(t *testing.T) {

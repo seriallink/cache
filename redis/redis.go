@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/bcjti/cache/redis"
-//   "github.com/bcjti/cache"
+//   _ "github.com/seriallink/cache/redis"
+//   "github.com/seriallink/cache"
 // )
 //
 //  bm, err := cache.NewCache("redis", `{"conn":"127.0.0.1:11211"}`)
@@ -37,8 +37,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bcjti/cache"
 	"github.com/gomodule/redigo/redis"
+	"github.com/seriallink/cache"
 )
 
 var (

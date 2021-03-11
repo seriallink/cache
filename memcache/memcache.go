@@ -20,8 +20,8 @@
 //
 // Usage:
 // import(
-//   _ "github.com/bcjti/cache/memcache"
-//   "github.com/bcjti/cache"
+//   _ "github.com/seriallink/cache/memcache"
+//   "github.com/seriallink/cache"
 // )
 //
 //  bm, err := cache.NewCache("memcache", `{"conn":"127.0.0.1:11211"}`)
@@ -35,8 +35,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bcjti/cache"
 	"github.com/bradfitz/gomemcache/memcache"
+	"github.com/seriallink/cache"
 )
 
 // Cache Memcache adapter.

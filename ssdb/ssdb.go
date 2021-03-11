@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bcjti/cache"
+	"github.com/seriallink/cache"
 	"github.com/ssdb/gossdb/ssdb"
 )
 
